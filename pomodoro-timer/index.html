@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>pomodoro timer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+    <div  class="col-xs-3 well">
+      <div id="breakDiv"  class=" text-center">
+        <p>Break Time</p>
+        <a href="#" id="breakPlus" class="btn btn-primary">+</a>
+        <h3 id="breakDisplay">5</h3>
+        <a href="#" id="breakMinus" class="btn btn-primary">-</a>
+      </div>
+    </div>
+
+    <div class="col-xs-6 text-center">
+      <h3 id="timeType">TOMATO TIMER</h3>
+      <h1 id="mainOutput">00:00</h1>
+       <h1 id="breakOutput"></h1>
+      <button id="startSession" class=" btn  btn-success">START SESSION</button>
+      <button id="startBreak" class=" btn  btn-primary">START BREAK</button>
+      <button id="reset" class=" btn btn-danger">RESET</button>
+    </div>
+
+
+    <div  class="col-xs-3 well">
+      <div id="sessionDiv" class=" text-center">
+        <p>Session Time</p>
+        <a href="#" id="sessionPlus" class="btn btn-primary">+</a>
+        <h3 id="sessionDisplay">25</h3>
+        <a href="#" id="sessionMinus" class="btn btn-primary">-</a>
+      </div>
+    </div>
+
+  </div>
+  <footer class="text-center"><span class="glyphicon glyphicon-heart"> from <a href="https://codepen.io/tranxcop/">Lucky</a></footer
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
